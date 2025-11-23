@@ -16,12 +16,11 @@ public class ConsultaMoneda {
         // Usando el endpoint 'pair' para convertir directamente
         URI direccion = URI.create("https://v6.exchangerate-api.com/v6/" + apiKey + "/pair/" + monedaBase + "/" + monedaTarget + "/" + cantidad);
 
-        HttpClient client = HttpClient.newHttpClient();
+        try (HttpClient client = HttpClient.newHttpClient()) {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(direccion)
                 .build();
 
-        try {
             HttpResponse<String> response = client
                     .send(request, HttpResponse.BodyHandlers.ofString());
 
