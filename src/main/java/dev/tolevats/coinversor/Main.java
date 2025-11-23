@@ -17,7 +17,7 @@ public class Main {
         int opcion = 0;
 
         System.out.println("*************************************************");
-        System.out.println("¡Bienvenido a Coniversor Pal!");
+        System.out.println("¡Bienvenido a Coinversor Pal!");
         System.out.println("*************************************************");
 
         while (opcion != 9) {
