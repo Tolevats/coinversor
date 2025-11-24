@@ -17,16 +17,18 @@ Sin embargo, como desarrolladora, quería ir un paso más allá de simplemente "
 Pasé de un simple script lineal a una arquitectura modular separando las responsabilidades (Modelo, Servicio y Vista), implementando un historial de consultas y asegurando que el usuario tenga una experiencia fluida, incluso cuando comete errores al escribir.
 
 ### 📸 __Capturas de la Aplicación__:
-Así se ve la interacción en la consola, limpia y directa:<br>
-> <img src="assets/0_bienvenida-y-menu.png" width=250>
----
-> <img src="assets/1_conversion.png" width=400>
+Así se ve la interacción en la consola, limpia y directa:
+
+<img src="assets/0_bienvenida-y-menu.png" width=250>
 
 ---
-> <img src="assets/2_error.png" width=250>
+<img src="assets/1_conversion.png" width=400>
 
 ---
-> <img src="assets/3_exit.png" width=300>
+<img src="assets/2_error.png" width=250>
+
+---
+<img src="assets/3_exit.png" width=300>
 
 ## ✨ Funcionalidades
 * __Conversión en tiempo real__: Utiliza la API [ExchangeRate-API](https://www.exchangerate-api.com/).
